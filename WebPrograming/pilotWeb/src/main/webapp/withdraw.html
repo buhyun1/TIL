@@ -1,0 +1,22 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>User Withdraw</title>
+</head>
+<body>
+<form action="processWithdraw.jsp" name="withdrawForm" method="post">
+  <fieldset style="width:300px">
+    <legend>Withdraw User (<strong style="color:red;">*</strong>: required)</legend>
+
+    <label for="userID"><small>User ID:</small><strong style="color:red;">*</strong></label><br>
+    <input type="text" name="userID" id="userID" size="10" required><br><br> 
+
+    <div style="width:300px;" align="center"> 
+      <input type="submit" value="Withdraw">
+    </div> 
+  </fieldset><br>
+</form>
+</body>
+</html>

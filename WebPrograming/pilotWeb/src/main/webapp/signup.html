@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>User Sign-up</title>
+</head>
+<body>
+	<form action="handle_signup.jsp" name="subscribeForm" method="post">
+		<fieldset style="width: 400px">
+			<legend>
+				Account Information (<strong style="color: red;">*</strong>:
+				required)
+			</legend>
+			<label for="email"><small>Email:</small><strong
+				style="color: red;">*</strong></label><br> <input type="email"
+				name="email" id="email" required><br> <label for="pw"><small>Password:</small><strong
+				style="color: red;">*</strong></label><br> <input type="password"
+				name="pw" id="pw" size="12" minlength="8" maxlength="12" required><br>
+			<label for="birthdate"><small>Birth Date:</small><strong
+				style="color: red;">*</strong></label><br> <input type="date"
+				name="birthdate" id="birthdate" required><br> <label
+				for="fullname"><small>Full Name:</small><strong
+				style="color: red;">*</strong></label><br> <input type="text"
+				name="fullname" id="fullname" size="30" required><br>
+			<br>
+			<div style="width: 400px;" align="center">
+				<input type="submit" value="Send">
+			</div>
+		</fieldset>
+		<br>
+	</form>
+</body>
+</html>

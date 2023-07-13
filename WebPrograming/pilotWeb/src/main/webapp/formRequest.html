@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>다양한 Form의 처리</title>
+</head>
+<body>
+<div style="width:400px;" align="center"> 
+  <strong><ins>Field trip application form</ins></strong><br><br>
+</div>
+
+<form action="formResponse.jsp" name="all_inputs" method="post">
+  <fieldset style="width:400px">
+    <legend>Basic Information</legend>
+    <label for="fname"><small>Full Name:</small></label><br>
+    <input type="text" name="fname" size="16" required><br>
+    <label for="id"><small>Student ID:</small></label><br>
+    <input type="text" name="id" size="16" required><br>
+    <label for="pw"><small>Password:</small></label><br>
+    <input type="password" name="pw" size="16" required><br>
+  </fieldset><br>
+   
+  <fieldset style="width:400px">  
+    <legend>Academic Status</legend>   
+    <label><small>Current Year:</small></label><br>
+    <input type="radio" name="year" id="year1" value="1">
+    <label for="year1">Freshman</label><br>
+    <input type="radio" name="year" id="year2" value="2">
+    <label for="year2">Sophomore</label><br>
+    <input type="radio" name="year" id="year3" value="3">
+    <label for="year3">Junior</label><br>
+    <input type="radio" name="year" id="year4" value="4">
+    <label for="year4">Senior</label><br><br>
+
+    <label for="year"><small>Select Major:</small></label>
+    <select name="major" id="major" style="width:300px;height:20.5px">
+      <optgroup label="Unassigned (1 year)">
+        <option value="SMSE">Systems Management & Safety Engineering</option>
+      </optgroup>
+      <optgroup label="Assigned (2,3,4 year)">			
+        <option value="IME">Industrial & Management Engineering</option>
+        <option value="TDE">Technology & Data Engineering</option>
+        <option value="SE">Safety Engineering</option>
+      </optgroup>
+    </select><br>
+  </fieldset><br>
+
+  <fieldset style="width:400px">  
+    <legend>Additional Information</legend>   
+    <label>Reason for applying to this trip:</label><br>
+    <input type="checkbox" name="reason" id="fun" value="fun">
+    <label for="fun">Fun</label><br>
+    <input type="checkbox" name="reason" id="experience" value="experience">
+    <label for="experience">Experience</label><br>
+    <input type="checkbox" name="reason" id="credit" value="credit">
+    <label for="credit">Additional credits</label><br>
+    <input type="checkbox" name="reason" id="staff" value="staff">
+    <label for="staff">Staff member</label><br><br>
+  
+    <label for="intro"><small>Self Introduction:</label><br>
+    <textarea name="intro" id="intro" cols="50" rows="3">introduce yourself</textarea>
+  </fieldset><br>
+   
+  <div style="width:400px;" align="center"> 
+    <input type="submit" value="Send"> &nbsp;&nbsp;
+    <input type="reset" value="Clear">
+  </div>   
+</form>
+</body>
+</html>
