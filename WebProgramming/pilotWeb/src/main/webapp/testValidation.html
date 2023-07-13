@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>HTML input validation</title>
+<style>
+  input:valid {
+    border: 1px solid black;
+  }  
+  input:invalid {
+    border: 1px dashed red;
+  }
+  input:invalid:required {
+    background: lightblue;
+  }
+</style>
+<script type="text/javascript">
+  function checkInput() {
+    let pwPattern = /(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}/;
+    let pw = document.studentForm.pw.value;
+	if (pw == "" || !pwPattern.test(pw)) {
+      alert("Must have number, upper & lowercase letter, and 8 or more characters");  
+	  document.studentForm.pw.select();
+	  return false;
+    }
+    return true;
+  }
+</script>
+</head>
+<body>
+<div style="width:400px;" align="center"> 
+  <strong><ins>Student Input Form</ins></strong><br><br>
+</div>
+
+<form action="validateInput.do" name="studentForm" method="post" enctype="multipart/form-data">
+  <fieldset style="width:400px">
+    <legend>Account Information (<strong style="color:red;">*</strong>: required)</legend>
+    
+    <label for="fname"><small>First Name:</small><strong style="color:red;">*</strong></label><br>
+    <input type="text" name="fname" id="fname" size="20" required><br>
+
+    <label for="lname"><small>Last Name:</small><strong style="color:red;">*</strong></label><br>
+    <input type="text" name="lname" id="lname" size="20" required><br><br>
+
+    <label for="ssn"><small>Social Security Number:</small><strong style="color:red;">*</strong></label><br>
+    <input type="text" name="ssn" id="ssn" size="14" pattern="[0-9]{6}-[1-4][0-9]{6}" placeholder="000000-0000000"><br>
+
+    <label for="email"><small>Email:</small></label><br>
+    <input type="email" name="email" id="email"><br><br>
+    
+    <label for="uid"><small>Username:</small><strong style="color:red;">*</strong></label><br>
+    <input type="text" name="uid" id="uid" size="15" pattern="[a-z]{1,15}" title="lowercase letters: 1~15"><br>
+    
+    <label for="pw"><small>Password:</small><strong style="color:red;">*</strong></label><br>
+    <input type="password" name="pw" id="pw" size="12" minlength="8" maxlength="12" required><br>
+  </fieldset><br>
+   
+  <fieldset style="width:400px">  
+    <legend>Additional Information</legend>
+
+    <label for="url"><small>Personal Homepage URL:</small></label><br>
+    <input type="url" name="url" id="url" size="30"><br>
+        
+    <label for="credit"><small>Total Credits Earned (0~130):</small></label><br>
+    <input type="number" name="credit" id="credit" value="65" min="0" max="130"><br>
+    
+    <label for="gpa"><small>This Semester's GPA:</small></label><br>
+    <input name="gpa" id="gpa" placeholder="4.50" pattern="\d.\d{2}"><br><br>
+    
+    <label for="photofile"><small>Photo:</small></label><br>
+    <input type="file" name="photofile" id="photofile" accept="image/*" title="image file only!"/><br>
+    
+    <label for="resumefile"><small>Resume:</small></label><br>
+    <input type="file" name="resumefile" id="resumefile" accept=".docx,.pdf,.hwp" /><br>
+  </fieldset><br>
+   
+  <div style="width:400px;" align="center"> 
+    <input type="submit" value="Send (w/ Validation)" onclick="return checkInput()"> &nbsp;&nbsp;
+    <input type="submit" value="Send (w/o Validation)" formnovalidate>
+  </div>   
+</form>
+<script type="text/javascript">
+  const uidElem = document.getElementById("uid");
+  
+  uidElem.addEventListener("input", function(event) {
+    if (uidElem.validity.patternMismatch) {
+      uidElem.setCustomValidity("Username should be lowercase letters no longer than 15 characters!");
+      uidElem.reportValidity();
+    } else {
+      uidElem.setCustomValidity("");	
+    }
+  })
+</script>
+</body>
+</html>

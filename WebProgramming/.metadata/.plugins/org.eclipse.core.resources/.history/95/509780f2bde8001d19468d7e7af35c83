@@ -1,0 +1,45 @@
+package exam.mid;
+
+import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+import java.io.IOException;
+import java.io.*;
+import java.util.*;
+/**
+ * Servlet implementation class FileDelete
+ */
+public class FileDelete extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+    /**
+     * @see HttpServlet#HttpServlet()
+     */
+    public FileDelete() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		String UploadFolder = this.getServletContext().getInitParameter("uploadFolder");
+		String UploadFolderPath = this.getServletContext().getRealPath(UploadFolder);
+		File userFolder = new File(UploadFolderPath + "\\" + pass_code);
+		File[] files = userFolder.listFiles();
+		// 폴더 삭제
+		if (userFolder.exists()) {
+			File[] files1 = userFolder.listFiles();
+			if (files1 != null) {
+				for (File file1 : files) {
+					file1.delete(); // 폴더 내 파일 삭제
+				}
+			}
+			userFolder.delete(); // 폴더 삭제
+		}
+	}
+	
+}

@@ -1,0 +1,166 @@
+
+3월 24, 2023 12:11:43.244 NEW SESSION
+3월 24, 2023 12:11:43.244 [3488:11528:0324/121143.242:ERROR:device_event_log_impl.cc(222)] [12:11:43.242] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+3월 24, 2023 12:11:43.245 [3488:11528:0324/121143.243:ERROR:device_event_log_impl.cc(222)] [12:11:43.242] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+3월 24, 2023 12:11:43.647 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 24, 2023 12:15:01.395 [14896:13448:0324/121501.394:ERROR:device_event_log_impl.cc(222)] [12:15:01.394] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+3월 24, 2023 12:15:01.396 [14896:13448:0324/121501.395:ERROR:device_event_log_impl.cc(222)] [12:15:01.394] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+3월 24, 2023 12:15:01.559 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+3월 24, 2023 12:17:51.342 NEW SESSION
+3월 24, 2023 12:17:51.342 [8764:3000:0324/121751.341:ERROR:device_event_log_impl.cc(222)] [12:17:51.341] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+3월 24, 2023 12:17:51.343 [8764:3000:0324/121751.342:ERROR:device_event_log_impl.cc(222)] [12:17:51.342] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+3월 24, 2023 12:17:51.887 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+4월 11, 2023 12:12:15.839 NEW SESSION
+4월 11, 2023 12:12:15.839 [20188:10648:0411/121215.836:ERROR:device_event_log_impl.cc(222)] [12:12:15.837] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 11, 2023 12:12:15.840 [20188:10648:0411/121215.837:ERROR:device_event_log_impl.cc(222)] [12:12:15.837] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 11, 2023 12:12:16.368 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+4월 11, 2023 12:28:41.175 [20188:15496:0411/122841.174:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+4월 11, 2023 12:28:45.287 [20188:10648:0411/122845.287:ERROR:interface_endpoint_client.cc(695)] Message 0 rejected by interface blink.mojom.WidgetHost
+4월 11, 2023 12:28:50.853 [20188:15496:0411/122850.853:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -103
+4월 11, 2023 12:33:42.578 [20188:15496:0411/123342.578:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+4월 11, 2023 12:34:12.857 [20188:10648:0411/123412.857:ERROR:device_event_log_impl.cc(222)] [12:34:12.856] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+4월 11, 2023 12:34:37.422 [20188:15496:0411/123437.422:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+4월 11, 2023 12:35:17.871 [20188:15496:0411/123517.871:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -118
+4월 11, 2023 12:36:13.330 [20188:15496:0411/123613.330:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+4월 11, 2023 12:37:01.612 [20188:15496:0411/123701.612:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -118
+4월 11, 2023 12:56:14.524 [20188:15496:0411/125614.524:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+4월 11, 2023 13:00:39.05 [20188:15496:0411/130039.004:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -105
+4월 11, 2023 13:07:42.284 [20188:10648:0411/130742.284:ERROR:interface_endpoint_client.cc(695)] Message 1 rejected by interface blink.mojom.WidgetHost
+4월 11, 2023 14:46:32.570 [20188:15496:0411/144632.570:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+4월 11, 2023 14:49:30.652 [20188:15496:0411/144930.652:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -105
+4월 11, 2023 14:56:19.205 [libprotobuf ERROR ..\..\third_party\protobuf\src\google\protobuf\message_lite.cc:133] Can't parse message of type "safe_browsing.ClientDownloadRequest" because it is missing required fields: (cannot determine missing fields for lite message)
+4월 11, 2023 14:56:46.09 [libprotobuf ERROR ..\..\third_party\protobuf\src\google\protobuf\message_lite.cc:133] Can't parse message of type "safe_browsing.ClientDownloadRequest" because it is missing required fields: (cannot determine missing fields for lite message)
+4월 11, 2023 14:57:08.788 [libprotobuf ERROR ..\..\third_party\protobuf\src\google\protobuf\message_lite.cc:133] Can't parse message of type "safe_browsing.ClientDownloadRequest" because it is missing required fields: (cannot determine missing fields for lite message)
+4월 11, 2023 14:59:09.853 [libprotobuf ERROR ..\..\third_party\protobuf\src\google\protobuf\message_lite.cc:133] Can't parse message of type "safe_browsing.ClientDownloadRequest" because it is missing required fields: (cannot determine missing fields for lite message)
+4월 11, 2023 15:38:25.138 [20188:15496:0411/153825.138:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+4월 11, 2023 15:38:31.618 [20188:15496:0411/153831.618:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+4월 11, 2023 15:38:40.114 [20188:15496:0411/153840.114:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+4월 11, 2023 15:39:28.447 [20188:15496:0411/153928.447:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+4월 11, 2023 15:39:28.456 [20188:15496:0411/153928.456:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -109
+
+4월 13, 2023 13:12:11.331 NEW SESSION
+4월 13, 2023 13:12:11.333 [3024:3172:0413/131211.331:ERROR:device_event_log_impl.cc(222)] [13:12:11.331] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 13, 2023 13:12:11.335 [3024:3172:0413/131211.331:ERROR:device_event_log_impl.cc(222)] [13:12:11.331] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 13, 2023 13:12:11.462 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+4월 13, 2023 13:19:04.647 NEW SESSION
+4월 13, 2023 13:19:04.647 [6588:7628:0413/131904.645:ERROR:device_event_log_impl.cc(222)] [13:19:04.645] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 13, 2023 13:19:04.649 [6588:7628:0413/131904.645:ERROR:device_event_log_impl.cc(222)] [13:19:04.645] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 13, 2023 13:19:05.332 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+4월 13, 2023 13:19:37.992 [6588:7628:0413/131937.992:ERROR:device_event_log_impl.cc(222)] [13:19:37.991] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+
+4월 19, 2023 12:58:02.49 NEW SESSION
+4월 19, 2023 12:58:02.50 [21296:3296:0419/125802.047:ERROR:device_event_log_impl.cc(222)] [12:58:02.047] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 19, 2023 12:58:02.50 [21296:3296:0419/125802.047:ERROR:device_event_log_impl.cc(222)] [12:58:02.047] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 19, 2023 12:58:02.106 [21296:8060:0419/125802.105:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+4월 19, 2023 12:58:02.627 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+4월 19, 2023 12:58:13.496 [9148:14312:0419/125813.496:ERROR:device_event_log_impl.cc(222)] [12:58:13.496] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 19, 2023 12:58:13.497 [9148:14312:0419/125813.496:ERROR:device_event_log_impl.cc(222)] [12:58:13.497] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 19, 2023 12:58:13.501 [9148:16960:0419/125813.500:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+4월 19, 2023 12:58:13.657 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+4월 19, 2023 12:58:42.110 [19732:3060:0419/125842.110:ERROR:device_event_log_impl.cc(222)] [12:58:42.110] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 19, 2023 12:58:42.111 [19732:3060:0419/125842.110:ERROR:device_event_log_impl.cc(222)] [12:58:42.110] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 19, 2023 12:58:42.146 [19732:13888:0419/125842.145:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+4월 19, 2023 12:58:42.270 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+4월 19, 2023 12:59:11.556 [19732:13888:0419/125911.556:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+4월 19, 2023 12:59:58.591 [19732:13888:0419/125958.591:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+
+5월 02, 2023 14:13:49.360 NEW SESSION
+5월 02, 2023 14:13:49.360 [9824:9836:0502/141349.360:ERROR:device_event_log_impl.cc(222)] [14:13:49.359] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+5월 02, 2023 14:13:49.361 [9824:9836:0502/141349.360:ERROR:device_event_log_impl.cc(222)] [14:13:49.359] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+5월 02, 2023 14:13:49.756 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+5월 02, 2023 14:14:46.244 [9824:9836:0502/141446.228:ERROR:device_event_log_impl.cc(222)] [14:14:46.242] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+5월 02, 2023 14:16:06.778 [9824:16556:0502/141606.777:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 02, 2023 14:16:06.789 [9824:16556:0502/141606.789:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -109
+5월 02, 2023 14:16:10.822 [9824:16556:0502/141610.821:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -105
+5월 02, 2023 14:16:49.486 [9824:16556:0502/141649.485:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 02, 2023 14:16:49.508 [9824:16556:0502/141649.508:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -109
+5월 02, 2023 14:16:54.661 [9824:16556:0502/141654.660:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 02, 2023 14:17:01.627 [9824:16556:0502/141701.627:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 02, 2023 14:47:45.705 [9824:16556:0502/144734.731:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 02, 2023 14:48:30.248 [9824:16556:0502/144830.248:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 02, 2023 14:48:30.336 [9824:16556:0502/144830.336:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -109
+5월 02, 2023 14:48:43.04 [9824:16556:0502/144843.004:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -105
+5월 02, 2023 14:48:55.704 [9824:16556:0502/144855.704:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -105
+5월 02, 2023 14:49:19.43 [9824:16556:0502/144919.043:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 02, 2023 14:49:19.718 [9824:9836:0502/144919.718:ERROR:device_event_log_impl.cc(222)] [14:49:19.716] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+5월 02, 2023 14:49:21.81 [9824:16556:0502/144921.081:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+5월 02, 2023 14:55:36.782 [9824:16556:0502/145536.782:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 02, 2023 14:57:33.676 [9824:16556:0502/145733.676:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+
+5월 02, 2023 15:29:59.584 NEW SESSION
+5월 02, 2023 15:29:59.584 [9244:12648:0502/152959.583:ERROR:device_event_log_impl.cc(222)] [15:29:59.583] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+5월 02, 2023 15:29:59.585 [9244:12648:0502/152959.583:ERROR:device_event_log_impl.cc(222)] [15:29:59.583] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+5월 02, 2023 15:29:59.958 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+5월 02, 2023 15:34:34.639 [9244:12648:0502/153434.639:ERROR:interface_endpoint_client.cc(695)] Message 0 rejected by interface blink.mojom.WidgetHost
+
+5월 02, 2023 15:38:59.155 NEW SESSION
+5월 02, 2023 15:38:59.155 [4444:16860:0502/153859.153:ERROR:device_event_log_impl.cc(222)] [15:38:59.154] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+5월 02, 2023 15:38:59.155 [4444:16860:0502/153859.154:ERROR:device_event_log_impl.cc(222)] [15:38:59.154] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+5월 02, 2023 15:39:00.630 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+5월 02, 2023 15:39:50.119 [4444:16860:0502/153950.119:ERROR:device_event_log_impl.cc(222)] [15:39:50.119] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+
+5월 02, 2023 16:04:47.358 NEW SESSION
+5월 02, 2023 16:04:47.358 [16080:9288:0502/160447.356:ERROR:device_event_log_impl.cc(222)] [16:04:47.357] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+5월 02, 2023 16:04:47.358 [16080:9288:0502/160447.357:ERROR:device_event_log_impl.cc(222)] [16:04:47.357] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+5월 02, 2023 16:04:48.111 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+5월 03, 2023 15:45:01.38 NEW SESSION
+5월 03, 2023 15:45:01.38 [7492:3964:0503/154501.036:ERROR:device_event_log_impl.cc(222)] [15:45:01.037] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+5월 03, 2023 15:45:01.38 [7492:3964:0503/154501.037:ERROR:device_event_log_impl.cc(222)] [15:45:01.037] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+5월 03, 2023 15:45:01.459 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+5월 03, 2023 15:46:02.668 [7492:3964:0503/154602.668:ERROR:device_event_log_impl.cc(222)] [15:46:02.668] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+
+6월 14, 2023 17:09:00.890 NEW SESSION
+6월 14, 2023 17:09:00.890 [14456:13572:0614/170900.888:ERROR:device_event_log_impl.cc(222)] [17:09:00.887] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+6월 14, 2023 17:32:12.527 [4808:13592:0614/173212.527:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+6월 14, 2023 19:27:10.789 [4808:13592:0614/192710.789:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+6월 14, 2023 19:27:10.996 [4808:7920:0614/192710.792:ERROR:get_updates_processor.cc(264)] PostClientToServerMessage() failed during GetUpdates with error 2
+6월 14, 2023 19:27:29.570 [4808:2760:0614/192729.569:ERROR:device_event_log_impl.cc(222)] [19:27:29.569] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+6월 14, 2023 20:05:00.152 [4808:2760:0614/200500.151:ERROR:interface_endpoint_client.cc(697)] Message 1 rejected by interface blink.mojom.WidgetHost
+6월 14, 2023 20:05:30.840 [4808:2760:0614/200530.840:ERROR:gpu_process_host.cc(953)] GPU process exited unexpectedly: exit_code=34
+6월 14, 2023 20:40:12.26 [4808:2760:0614/204012.026:ERROR:interface_endpoint_client.cc(697)] Message 1 rejected by interface blink.mojom.WidgetHost
+6월 14, 2023 20:58:02.889 [4808:13592:0614/205802.889:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+6월 14, 2023 22:02:49.591 [4808:13592:0614/220249.405:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+6월 14, 2023 22:02:51.408 [4808:13592:0614/220251.408:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+6월 14, 2023 22:08:22.265 [4808:13592:0614/220822.265:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+6월 14, 2023 22:23:39.804 [4808:2760:0614/222339.804:ERROR:device_event_log_impl.cc(222)] [22:23:39.431] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+6월 14, 2023 22:47:26.834 [4808:2760:0614/224726.833:ERROR:device_event_log_impl.cc(222)] [22:47:26.834] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+6월 14, 2023 23:15:18.494 [4808:2760:0614/231518.494:ERROR:interface_endpoint_client.cc(697)] Message 1 rejected by interface blink.mojom.WidgetHost
+
+6월 16, 2023 14:27:26.809 NEW SESSION
+6월 16, 2023 14:27:26.809 [21224:18856:0616/142726.806:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+6월 16, 2023 14:52:41.687 [21224:18856:0616/145241.687:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+6월 16, 2023 17:42:11.267 [21224:18856:0616/174211.267:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -7
+
+6월 23, 2023 13:18:32.368 NEW SESSION
+6월 23, 2023 13:18:32.368 [15224:9912:0623/131832.365:ERROR:device_event_log_impl.cc(222)] [13:18:32.365] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+6월 23, 2023 13:33:54.528 [15224:9912:0623/133354.528:ERROR:interface_endpoint_client.cc(697)] Message 5 rejected by interface blink.mojom.WidgetHost
+6월 23, 2023 14:22:59.903 [15224:13220:0623/142259.903:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+6월 23, 2023 14:40:48.266 [15224:13220:0623/144048.265:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+6월 23, 2023 14:49:32.529 [15224:13220:0623/144932.528:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+6월 23, 2023 14:51:02.651 [15224:13220:0623/145102.651:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+6월 23, 2023 14:52:43.245 [15224:9912:0623/145243.245:ERROR:device_event_log_impl.cc(222)] [14:52:43.245] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+6월 23, 2023 15:14:02.444 [15224:16112:0623/151402.443:ERROR:cert_verify_proc_builtin.cc(702)] CertVerifyProcBuiltin for bid.adsinteractive.com failed:
+6월 23, 2023 15:14:02.445 ----- Certificate i=0 (CN=Kubernetes Ingress Controller Fake Certificate,O=Acme Co) -----
+6월 23, 2023 15:14:02.446 ERROR: No matching issuer found
+6월 23, 2023 15:14:02.446 
+6월 23, 2023 15:14:02.447 
+6월 23, 2023 17:24:15.560 [15224:13220:0623/172415.559:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+6월 23, 2023 19:04:11.755 [15224:13220:0623/190411.755:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+6월 23, 2023 19:04:13.777 [15224:13220:0623/190413.777:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+6월 23, 2023 19:04:13.779 [15224:7512:0623/190413.778:ERROR:get_updates_processor.cc(264)] PostClientToServerMessage() failed during GetUpdates with error 2
+6월 23, 2023 19:04:58.797 [15224:16112:0623/190458.797:ERROR:get_updates_processor.cc(264)] PostClientToServerMessage() failed during GetUpdates with error 2
+6월 23, 2023 19:05:06.965 [15224:13220:0623/190506.965:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+6월 23, 2023 19:06:06.323 [15224:16112:0623/190606.322:ERROR:get_updates_processor.cc(264)] PostClientToServerMessage() failed during GetUpdates with error 2
+6월 23, 2023 19:06:38.138 [15224:13220:0623/190638.137:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+6월 23, 2023 19:07:47.599 [15224:16112:0623/190747.599:ERROR:get_updates_processor.cc(264)] PostClientToServerMessage() failed during GetUpdates with error 2
+6월 23, 2023 19:22:15.762 [15224:13220:0623/192215.761:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+6월 23, 2023 19:22:15.763 [15224:4504:0623/192215.762:ERROR:get_updates_processor.cc(264)] PostClientToServerMessage() failed during GetUpdates with error 2
+6월 23, 2023 19:38:05.228 [15224:13220:0623/193354.281:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+6월 23, 2023 19:38:05.260 [15224:13220:0623/193805.260:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+6월 23, 2023 19:38:16.706 [15224:9912:0623/193816.706:ERROR:device_event_log_impl.cc(222)] [19:38:16.706] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+6월 23, 2023 20:41:55.718 [15224:9912:0623/204155.718:ERROR:interface_endpoint_client.cc(697)] Message 1 rejected by interface blink.mojom.WidgetHost
+6월 23, 2023 20:43:31.986 [15224:9912:0623/204331.986:ERROR:device_event_log_impl.cc(222)] [20:43:31.986] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)

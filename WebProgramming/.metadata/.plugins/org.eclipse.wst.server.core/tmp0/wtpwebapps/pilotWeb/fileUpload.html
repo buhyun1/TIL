@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>File Upload Servlet/JSP Example</title>
+</head>
+<body>
+	<form action="fileUpload.jsp" method="post"
+		enctype="multipart/form-data">
+		<fieldset style="width: 400px">
+			<legend>Upload Your Photo</legend>
+			<label for="fname"><small>Your Name:</small></label><br> <input
+				type="text" name="fname" size="16" required><br>
+			<br> <label for="upfile"><small>Choose Files:</small></label><br>
+			<input type="file" name="upfile" id="upfile" multiple /><br>
+			<hr>
+			<div style="width: 400px;" align="right">
+				<input type="submit" value="Send">&nbsp;&nbsp; <input
+					type="reset" value="Clear">
+			</div>
+		</fieldset>
+	</form>
+</body>
+</html>
+    
