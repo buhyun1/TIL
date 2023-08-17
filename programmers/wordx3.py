@@ -10,3 +10,4 @@ def solution(my_string, n):
     return l
 
 print(solution('buhyun123',3))
+
