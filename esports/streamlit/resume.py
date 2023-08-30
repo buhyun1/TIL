@@ -27,7 +27,7 @@ label = "입력: "
 value = "먹고싶은거 적어요"
 st.text_input(label, value)
 
-#####
+#####s
 
 
 st.title("Line Chart")
